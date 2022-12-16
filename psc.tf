@@ -1,5 +1,5 @@
 module "psc_consumer" {
-  source = "github.com/Ps3ud-0nym/tf-module-psc-consumer.git"
+  source = "github.com/Ps3ud-0nym/psc-consumer-module.git"
   project_id                          = var.project_id
   primary_region                      = var.primary_region
   service_attachment_name             = var.service_attachment_name

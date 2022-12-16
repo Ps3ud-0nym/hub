@@ -14,7 +14,7 @@ subnet_cidr_02 = "10.10.20.0/22"
 ## PSC vars
 service_attachment_name = "hub-service-attachment"
 # producer_state_bucket = "" # Pass this in as an ENV var
-producer_state_bucket_prefix = "terraform/state"
+producer_state_bucket_prefix = "terraform/spoke-state"
 consumer_ip_address_name = "psc-ilb-consumer-address"
 consumer_forwarding_rule_name = "psc-ilb-consumer-forwarding-rule"
 private_zone_name = "psc-consumer-zone"
