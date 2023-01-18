@@ -1,7 +1,7 @@
 module "enabled_google_apis" {
 
   depends_on = [
-    google_project.hub-project
+    module.project_factory
   ]
   source  = "terraform-google-modules/project-factory/google//modules/project_services"
   version = "~> 11.3"

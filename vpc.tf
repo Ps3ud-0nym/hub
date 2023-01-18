@@ -5,7 +5,7 @@ module "vpc" {
 
   depends_on = [
     module.enabled_google_apis,
-    google_project.hub-project
+    module.project_factory
   ]
 
   source  = "terraform-google-modules/network/google"

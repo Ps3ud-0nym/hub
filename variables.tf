@@ -11,6 +11,10 @@ variable "project_id" {
   description = "GCP Project Id"
   default     = ""
 }
+variable "organization_id" {
+  description = "Organisation ID"
+  default     = ""
+}
 variable "primary_region" {
   description = "primary_region"
   default     = ""
